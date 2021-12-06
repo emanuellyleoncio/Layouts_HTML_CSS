@@ -1,0 +1,192 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    background: #FFFFFF;
+    box-shadow: 0px 34px 44px rgba(160, 181, 255, 0.28);
+    border-radius: 10px;
+    padding: 40px 0px;
+
+    width: 693px;
+
+    margin: 0 auto;
+}
+
+
+.title h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+
+    margin-bottom: 50px;
+}
+
+.bill {
+    display: flex;
+    flex-direction: column;
+    margin-left: 52px;
+    margin-bottom: 40px;
+}
+
+.bill h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+
+.bill span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.container p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+
+    margin: 50px 80px 27px 80px;
+}
+
+.container button {
+    all: unset;
+    box-sizing: border-box;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+    text-align: center;
+    color: #FFFFFF;
+
+    background: #5F82FF;
+    border-radius: 5px;
+    padding: 20px 257px;
+    text-decoration: none;
+
+    cursor: pointer;
+
+    margin-left: 51px;
+}
+
+.container button:hover {
+    background-color: #093DF3;
+}
+
+.card-number {
+    margin-left: 52px;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+.card-number input {
+    all:unset;
+    box-sizing: border-box;
+
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    border: 1px solid #CED5EC;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    padding: 26px;
+    width: 591px;
+}
+
+.card-number input:focus {
+    border-color: #5F82FF;
+}
+
+
+.card-number label {
+    margin-bottom: 5px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+.card-security {
+    display: flex;
+    margin-left: 52px;
+}
+
+.card-security input {
+    all:unset;
+    box-sizing: border-box;
+
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    border: 1px solid #CED5EC;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    padding: 26px;
+    width: 288px;
+}
+
+.card-security input:focus {
+    border-color: #5F82FF;
+}
+
+.card-security label {
+    margin-bottom: 5px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.card-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-code {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
